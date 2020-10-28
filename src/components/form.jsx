@@ -58,6 +58,9 @@ function Form(props) {
     sections[id].subtitles[subtitleID] = e.target.value;
     createSection([...sections]);
   }
+  function returnToSchedule() {
+    props.history.push("/view");
+  }
 
   function addNewSubsection(e, id) {
     sections[id].subtitles.push("");
@@ -78,6 +81,9 @@ function Form(props) {
     <div>
       <div>
         <h1 style={{ fontWeight: 500 }}>Create a new training schedule</h1>
+        <button className="secondaryBtn return" onClick={returnToSchedule}>
+          Cancel
+        </button>
       </div>
       <div className="scroll-block">
         <div className="mainSection">

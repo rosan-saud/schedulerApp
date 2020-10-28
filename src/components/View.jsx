@@ -22,7 +22,9 @@ function View(props) {
 
   const sectionData = props.recievedSchedule.sections;
 
-  const { loading, error, data } = useQuery(GET_MY_SCH);
+  const { loading, error, data } = useQuery(GET_MY_SCH, {
+    fetchPolicy: "network-only",
+  });
 
   if (loading) {
     return <div>Loading...</div>;
