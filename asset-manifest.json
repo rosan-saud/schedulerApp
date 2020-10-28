@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/schedulerApp/static/css/main.7c8bbf1a.chunk.css",
-    "main.js": "/schedulerApp/static/js/main.619cfc1f.chunk.js",
-    "main.js.map": "/schedulerApp/static/js/main.619cfc1f.chunk.js.map",
+    "main.css": "/schedulerApp/static/css/main.1cfe6ff9.chunk.css",
+    "main.js": "/schedulerApp/static/js/main.fa80b78f.chunk.js",
+    "main.js.map": "/schedulerApp/static/js/main.fa80b78f.chunk.js.map",
     "runtime-main.js": "/schedulerApp/static/js/runtime-main.0337f730.js",
     "runtime-main.js.map": "/schedulerApp/static/js/runtime-main.0337f730.js.map",
     "static/js/2.4369aa54.chunk.js": "/schedulerApp/static/js/2.4369aa54.chunk.js",
     "static/js/2.4369aa54.chunk.js.map": "/schedulerApp/static/js/2.4369aa54.chunk.js.map",
     "index.html": "/schedulerApp/index.html",
-    "precache-manifest.3739e87bbdf48d2c8204536c32d35332.js": "/schedulerApp/precache-manifest.3739e87bbdf48d2c8204536c32d35332.js",
+    "precache-manifest.a8f11658f9ffea0e314d512ccac30264.js": "/schedulerApp/precache-manifest.a8f11658f9ffea0e314d512ccac30264.js",
     "service-worker.js": "/schedulerApp/service-worker.js",
-    "static/css/main.7c8bbf1a.chunk.css.map": "/schedulerApp/static/css/main.7c8bbf1a.chunk.css.map",
+    "static/css/main.1cfe6ff9.chunk.css.map": "/schedulerApp/static/css/main.1cfe6ff9.chunk.css.map",
     "static/js/2.4369aa54.chunk.js.LICENSE.txt": "/schedulerApp/static/js/2.4369aa54.chunk.js.LICENSE.txt",
     "static/media/clock.svg": "/schedulerApp/static/media/clock.871bbe23.svg",
     "static/media/logo_icon.svg": "/schedulerApp/static/media/logo_icon.b91becec.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0337f730.js",
     "static/js/2.4369aa54.chunk.js",
-    "static/css/main.7c8bbf1a.chunk.css",
-    "static/js/main.619cfc1f.chunk.js"
+    "static/css/main.1cfe6ff9.chunk.css",
+    "static/js/main.fa80b78f.chunk.js"
   ]
 }
