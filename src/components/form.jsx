@@ -117,7 +117,7 @@ function Form(props) {
                     className="sectionHeading"
                     style={{ display: "inline-block" }}
                   >
-                    Section
+                    Sections
                   </h3>
                 </div>
               ) : null}
