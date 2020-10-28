@@ -46,16 +46,16 @@ function App(props) {
 
         <div className="body-cont">
           <Switch>
-            <Route path="/view" exact>
-              <View recievedSchedule={scheduleData} />
-            </Route>
-            <Route path="/">
+            <Route path="/create" exact>
               <Form
                 saveSchedule={(data) => {
                   setData(data);
-                  props.history.push("/view");
+                  props.history.push("/");
                 }}
               />
+            </Route>
+            <Route path="/">
+              <View recievedSchedule={scheduleData} />
             </Route>
           </Switch>
         </div>

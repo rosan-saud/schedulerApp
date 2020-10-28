@@ -59,21 +59,23 @@ function Form(props) {
     createSection([...sections]);
   }
   function returnToSchedule() {
-    props.history.push("/view");
+    props.history.push("/");
   }
 
   function addNewSubsection(e, id) {
     sections[id].subtitles.push("");
     createSection([...sections]);
   }
-  function createSchedule() {
+  async function createSchedule() {
     const schedule = { title, date, sections };
     if (!title || !date) {
       alert("Enter Title and Date of your training");
     } else {
       // localStorage.setItem(schedule, JSON.stringify(schedule));
+      await addSch({
+        variables: { title: title, date: date, sections: sections },
+      });
       props.saveSchedule(schedule);
-      addSch({ variables: { title: title, date: date, sections: sections } });
     }
   }
 

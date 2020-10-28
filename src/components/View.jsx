@@ -17,7 +17,7 @@ const GET_MY_SCH = gql`
 
 function View(props) {
   function createNewTraining() {
-    props.history.push("/");
+    props.history.push("/create");
   }
 
   const sectionData = props.recievedSchedule.sections;
